@@ -1,0 +1,32 @@
+By the late 1990s many people felt that continuing to index
+the whole Web would rapidly become impossible due to the Web’s exponential growth in size But major scientific innovations superb engineering
+the rapidly declining price of computer hardware and the rise of a commercial underpinning for web search have all conspired to power today’s major
+search engines which are able to provide high-quality results within subsecond response times for hundreds of millions of searches a day over billions
+of web pages
+Nevertheless in recent years a principal driver of innovation has been the
+World Wide Web unleashing publication at the scale of tens of millions of
+content creators This explosion of published information would be moot
+if the information could not be found annotated and analyzed so that each
+user can quickly find information that is both relevant and comprehensive
+for their needs
+Many people gave us detailed feedback on individual chapters either at
+our request or through their own initiative For this we’re particularly grateful to: James Allan Omar Alonso Ismail Sengor Altingovde Vo Ngoc Anh
+Roi Blanco Eric Breck Eric Brown Mark Carman Carlos Castillo Junghoo
+Cho Aron Culotta Doug Cutting Meghana Deodhar Susan Dumais Johannes Fürnkranz Andreas Heß Djoerd Hiemstra David Hull Thorsten
+Joachims Siddharth Jonathan J B Jaap Kamps Mounia Lalmas Amy Langville
+Nicholas Lester Dave Lewis Daniel Lowd Yosi Mass Jeff Michels Alessandro Moschitti Amir Najmi Marc Najork Giorgio Maria Di Nunzio Paul
+Ogilvie Priyank Patel Jan Pedersen Kathryn Pedings Vassilis Plachouras
+Daniel Ramage Ghulam Raza Stefan Riezler Michael Schiehlen Helmut
+Schmid Falk Nicolas Scholer Sabine Schulte im Walde Fabrizio Sebastiani
+Sarabjeet Singh Valentin Spitkovsky Alexander Strehl John Tait Shivakumar Vaithyanathan Ellen Voorhees Gerhard Weikum Dawid Weiss Yiming
+Yang Yisong Yue Jian Zhang and Justin Zobel
+The indexes and queries considered in Chapters 1–5
+only deal with Boolean retrieval in which a document either matches a query
+or does not A desire to measure the extent to which a document matches a
+query or the score of a document for a query motivates the development of
+term weighting and the computation of scores in Chapters 6 and 7 leading
+to the idea of a list of documents that are rank-ordered for a query Chapter 8
+focuses on the evaluation of an information retrieval system based on the
+relevance of the documents it retrieves allowing us to compare the relative
+performances of different systems on benchmark document collections and
+queries

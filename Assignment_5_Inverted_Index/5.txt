@@ -1,0 +1,47 @@
+Chapters 9–21 build on the foundation of the first eight chapters to cover
+a variety of more advanced topics Chapter 9 discusses methods by which
+retrieval can be enhanced through the use of techniques like relevance feedback and query expansion which aim at increasing the likelihood of retrieving relevant documents Chapter 10 considers information retrieval from
+documents that are structured with markup languages like XML and HTML
+We treat structured retrieval by reducing it to the vector space scoring methods developed in Chapter 6 Chapters 11 and 12 invoke probability theory to
+compute scores for documents on queries Chapter 11 develops traditional
+probabilistic information retrieval which provides a framework for computing the probability of relevance of a document given a set of query terms
+This probability may then be used as a score in ranking Chapter 12 illustrates an alternative wherein for each document in a collection we build a
+language model from which one can estimate a probability that the language
+model generates a given query This probability is another quantity with
+which we can rank-order documents
+Chapters 13–17 give a treatment of various forms of machine learning and
+numerical methods in information retrieval Chapters 13–15 treat the problem of classifying documents into a set of known categories given a set of
+documents along with the classes they belong to Chapter 13 motivates statistical classification as one of the key technologies needed for a successful
+search engine introduces Naive Bayes a conceptually simple and efficient
+text classification method and outlines the standard methodology for evaluating text classifiers Chapter 14 employs the vector space model from Chap-
+ter 6 and introduces two classification methods Rocchio and kNN that operate on document vectors It also presents the bias-variance tradeoff as an
+important characterization of learning problems that provides criteria for selecting an appropriate method for a text classification problem Chapter 15
+introduces support vector machines which many researchers currently view
+as the most effective text classification method We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set of training examples
+Chapters 16–18 consider the problem of inducing clusters of related documents from a collection In Chapter 16 we first give an overview of a
+number of important applications of clustering in information retrieval We
+then describe two flat clustering algorithms: the K-means algorithm an efficient and widely used document clustering method; and the Expectation-
+Maximization algorithm which is computationally more expensive but also
+more flexible Chapter 17 motivates the need for hierarchically structured
+We would like to thank Cambridge University Press for allowing us to make
+the draft book available online which facilitated much of the feedback we
+have received while writing the book We also thank Lauren Cowles who
+has been an outstanding editor providing several rounds of comments on
+each chapter on matters of style organization and coverage as well as detailed comments on the subject matter of the book To the extent that we
+have achieved our goals in writing this book she deserves an important part
+of the credit
+We are very grateful to the many people who have given us comments
+suggestions and corrections based on draft versions of this book We thank
+for providing various corrections and comments: Cheryl Aasheim Josh Attenberg Daniel Beck Luc Bélanger Georg Buscher Tom Breuel Daniel Bur-
+ckhardt Fazli Can Dinquan Chen Stephen Clark Ernest Davis Pedro Domingos Rodrigo Panchiniak Fernandes Paolo Ferragina Alex Fraser Norbert
+Fuhr Vignesh Ganapathy Elmer Garduno Xiubo Geng David Gondek Sergio Govoni Corinna Habets Ben Handy Donna Harman Benjamin Haskell
+Thomas Hühn Deepak Jain Ralf Jankowitsch Dinakar Jayarajan Vinay Kakade
+Mei Kobayashi Wessel Kraaij Rick Lafleur Florian Laws Hang Li David
+Losada David Mann Ennio Masi Sven Meyer zu Eissen Alexander Murzaku
+Gonzalo Navarro Frank McCown Paul McNamee Christoph Müller Scott
+Olsson Tao Qin Megha Raghavan Michal Rosen-Zvi Klaus Rothenhäusler
+Kenyu L Runner Alexander Salamanca Grigory Sapunov Evgeny Shadchnev Tobias Scheffer Nico Schlaefer Ian Soboroff Benno Stein Marcin
+Sydow Andrew Turner Jason Utt Huey Vo Travis Wade Mike Walsh Changliang
+Wang Renjing Wang and Thomas Zeume

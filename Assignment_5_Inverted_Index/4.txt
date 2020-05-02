@@ -1,0 +1,19 @@
+Book organization and course development
+This book is the result of a series of courses we have taught at Stanford University and at the University of Stuttgart in a range of durations including
+a single quarter one semester and two quarters These courses were aimed
+at early-stage graduate students in computer science but we have also had
+enrollment from upper-class computer science undergraduates as well as
+students from law medical informatics statistics linguistics and various engineering disciplines The key design principle for this book therefore was
+to cover what we believe to be important in a one-term graduate course on
+information retrieval An additional principle is to build each chapter around
+material that we believe can be covered in a single lecture of 75 to 90 minutes
+The first eight chapters of the book are devoted to the basics of information retrieval and in particular the heart of search engines; we consider this
+material to be core to any course on information retrieval Chapter 1 introduces inverted indexes and shows how simple Boolean queries can be
+processed using such indexes Chapter 2 builds on this introduction by detailing the manner in which documents are preprocessed before indexing
+and by discussing how inverted indexes are augmented in various ways for
+functionality and speed Chapter 3 discusses search structures for dictionaries and how to process queries that have spelling errors and other imprecise
+matches to the vocabulary in the document collection being searched Chapter 4 describes a number of algorithms for constructing the inverted index
+from a text collection with particular attention to highly scalable and distributed algorithms that can be applied to very large collections Chapter 5
+covers techniques for compressing dictionaries and inverted indexes These
+techniques are critical for achieving subsecond response times to user queries
+in large search engines
